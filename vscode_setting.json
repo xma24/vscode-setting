@@ -1,0 +1,150 @@
+{
+  // "editor.formatOnSave": true,
+  "editor.rulers": [97],
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Courier New",
+  "editor.lineHeight": 16,
+  "editor.defaultFormatter": "ms-python.python",
+  "workbench.settings.editor": "json",
+  "update.mode": "none",
+  "files.autoSave": "onFocusChange",
+  "editor.showFoldingControls": "always",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "redhat.telemetry.enabled": false,
+  "git.ignoreLegacyWarning": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.fontSize": 14,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black", // or "black" here
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "gitlens.modes": {
+    "zen": {
+      "name": "Zen",
+      "statusBarItemName": "Zen",
+      "description": "for a zen-like experience, disables many visual features",
+      "codeLens": false,
+      "currentLine": false,
+      "hovers": false,
+      "statusBar": false
+    },
+    "review": {
+      "name": "Review",
+      "statusBarItemName": "Reviewing",
+      "description": "for reviewing code, enables many visual features",
+      "codeLens": true,
+      "currentLine": true,
+      "hovers": true
+    }
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "github.copilot.autocomplete.enable": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "latex-workshop.bibtex-fields.sort.enabled": true,
+  "latex-workshop.bibtex-format.sort.enabled": true,
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.docker.enabled": true,
+  "latex-workshop.docker.image.latex": "latexmk",
+  "pai.job.generateJobName.enabled": true,
+  "pai.job.upload.enabled": true,
+  "leek-fund.fundSort": -2,
+  "leek-fund.stockSort": -1,
+  "leek-fund.fallColor": "#C6320D",
+  "super-stock.favorite": {},
+  "leek-fund.statusBarStock": ["usr_dji", "usr_ixic", "usr_inx"],
+  "leetcode.endpoint": "leetcode-cn",
+  "github.copilot.autocomplete.count": 5,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "python": false
+  },
+  "editor.parameterHints.enabled": false,
+  "aws.onDefaultRegionMissing": "add",
+  "highlightLine.borderWidth": "2px",
+  "highlightLine.borderColor": "yellow",
+  "hediet.vscode-drawio.offline": false,
+  "terminal.integrated.fontFamily": "Courier New",
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "yaml.schemas": {},
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "liveshare.audio.startCallOnShare": true,
+  "json.schemas": [],
+  "enableTelemetry": true,
+  "cmake.configureOnOpen": true,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "calendar.maxEvents": 50,
+  "calendar.historicDays": 20,
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.watcherExclude": {
+    "**/.trunk/*out": true
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "yaml.maxItemsComputed": 50000,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "trunk.trunkGrayOutNonBlockingIssues": false,
+  "files.exclude": {
+    "**/.trunk/*out": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": -1
+}
